@@ -25,6 +25,9 @@ AIM65 := 1
 .elseif .def(sym1)
 SYM1 := 1
 .include "defines_sym1.s"
+.elseif .def(n8bit)
+N8BIT := 1
+.include "defines_n8bit.s"
 .endif
 
 .ifdef CONFIG_2C
